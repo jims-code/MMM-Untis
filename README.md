@@ -1,5 +1,5 @@
 # MMM-Untis
-<color="#FF0000">WORK IN PROGRESS - CURRENTLY NO WORKING VERSION</color>
+<p color="#FF0000">WORK IN PROGRESS - CURRENTLY NO WORKING VERSION</p>
 Goal of MMM-Untis is to provide a timetable for several school kids. Maybe it will end up in a complete rewrite. These are the very first steps.
 The code is based on thyed/MMM-Webuntis - thank you very much!!!
 
