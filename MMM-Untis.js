@@ -1,4 +1,4 @@
-Module.register("MMM-Webuntis", {
+Module.register("MMM-Untis", {
 
 	defaults: {
 		students: [
@@ -17,7 +17,7 @@ Module.register("MMM-Webuntis", {
 	},
 
 	getStyles: function () {
-  		return ["MMM-Webuntis.css"];
+  		return ["MMM-Untis.css"];
   	},
 
 	getTranslations: function () {
@@ -62,8 +62,9 @@ Module.register("MMM-Webuntis", {
 
 				if (lesson.code == "") {continue;}
 				if (!this.config.showRegularLessons) {
+					// skip this skip ;-) in order to show all classes
 					// skip if nothing special
-					if (lesson.code == "") {continue;}
+					// if (lesson.code == "") {continue;}
 				}
 
 				// skip past lessons
